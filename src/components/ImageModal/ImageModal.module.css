@@ -1,0 +1,37 @@
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.Modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(230, 107, 187, 0.5); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  border: none;
+}
+
+.photo {
+  max-width: 80%; 
+  max-height: 80%; 
+  object-fit: contain; 
+  border-radius: 20px;
+  transition: transform 0.3s ease-in-out; /* Додаємо анімацію */
+}
+
+.photo:hover {
+  transform: scale(1.05); /* Збільшуємо фото при наведенні */
+}

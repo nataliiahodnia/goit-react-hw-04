@@ -1,0 +1,38 @@
+.loadBtn {
+  padding: 8px 16px;
+  margin-bottom: 60px;
+  border-radius: 8px;
+  background-color: #e67dd5;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  height: 60px;
+  border: none;
+  /* cursor: pointer; */
+  text-decoration: none;
+  font: 500 18px/24px inherit;
+  min-width: 180px;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+              0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+              0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+
+.loadBtn:hover,
+.loadBtn:focus {
+  background-color: #9b2a88;
+  transform: translateY(-2px);
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
+              0px 8px 10px 1px rgba(0, 0, 0, 0.14),
+              0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+.loadBtn svg {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+
+   
