@@ -1,6 +1,6 @@
-import css from '../ImageCard/ImageCard.module.css';
+import css from "../ImageCard/ImageCard.module.css";
 
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 function ImageCard({ item, onImgClick }) {
   const {
@@ -9,7 +9,7 @@ function ImageCard({ item, onImgClick }) {
   } = item;
 
   const handleImageClick = () => {
-    if (typeof onImgClick === 'function') {
+    if (typeof onImgClick === "function") {
       onImgClick(regular);
     }
   };
@@ -32,4 +32,3 @@ ImageCard.propTypes = {
 };
 
 export default ImageCard;
-
