@@ -10,6 +10,8 @@
     0px 4px 5px 0px rgba(240, 5, 182, 0.5),
     0px 1px 10px 0px rgba(255, 6, 176, 0.);
 }
+
+
 .form {
   display: flex;
   align-items: center;
@@ -23,7 +25,7 @@
 }
 
 .form:hover {
-  box-shadow: 0 8px 16px rgba(255, 4, 242, 0.6);
+  box-shadow: 0 8px 16px #f307df99;
 }
 
 .input {
@@ -53,13 +55,14 @@
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   /* cursor: pointer; */
   outline: none;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   color: #e67dd5;
 }
 
 .button:hover {
   opacity: 1;
-  transform: scale(1.1);
+  transform: scale(1.4);
+  color:#f307dfe5;
+  background-color: #fff;
 }
 
 .button svg {
