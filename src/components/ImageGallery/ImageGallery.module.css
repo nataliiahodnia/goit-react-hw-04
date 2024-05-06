@@ -12,4 +12,10 @@
   width: calc((100% - 48px) / 4);
   overflow: hidden;
   border-radius: 12px;
+  position: relative; /* Додаємо позиціонування для псевдоелементу */
 }
+
+.galleryItem:hover {
+  filter: brightness(110%) contrast(102%) saturate(101%); 
+}
+

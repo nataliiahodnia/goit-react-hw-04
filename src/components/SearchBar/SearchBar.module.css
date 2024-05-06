@@ -6,9 +6,9 @@
   padding: 12px;
   color: #fff;
   background-color: #e67dd5;
-  box-shadow: 0px 2px 4px -1px rgba(30, 30, 30, 0.2),
-    0px 4px 5px 0px rgba(50, 50, 50, 0.14),
-    0px 1px 10px 0px rgba(42, 42, 42, 0.12);
+  box-shadow: 0px 2px 4px -1px rgba(255, 21, 208, 0.5),
+    0px 4px 5px 0px rgba(240, 5, 182, 0.5),
+    0px 1px 10px 0px rgba(255, 6, 176, 0.);
 }
 .form {
   display: flex;
@@ -18,12 +18,12 @@
   background-color: #fff;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px hsla(309, 100%, 50%, 0.1);
   transition: box-shadow 0.3s ease;
 }
 
 .form:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px rgba(255, 4, 242, 0.6);
 }
 
 .input {

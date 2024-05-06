@@ -28,9 +28,33 @@
   max-height: 80%;
   object-fit: contain;
   border-radius: 20px;
-  transition: transform 0.3s ease-in-out; /* Додаємо анімацію */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+  position: relative; 
+  filter: brightness(100%); 
 }
 
 .photo:hover {
-  transform: scale(1.05); /* Збільшуємо фото при наведенні */
+  transform: scale(1.15) rotate(3deg) translateX(4px) translateY(4px);  
+  box-shadow: 1px 10px 70px rgba(235, 6, 151, 0.9); 
+  filter: brightness(110%) contrast(102%) saturate(101%); 
+  transition: transform 0.3s ease-in-out; 
+}
+
+.photo::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  z-index: -1; 
+  transition: opacity 0.3s ease-in-out;
+  pointer-events: none; 
+  opacity: 0;
+}
+
+.photo:hover::after {
+  opacity: 0.7; 
 }
